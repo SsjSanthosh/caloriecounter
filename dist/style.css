@@ -1,0 +1,11 @@
+.edit {
+  color: gold;
+}
+
+.delete {
+  color: crimson;
+}
+
+.fas {
+  cursor: pointer;
+}

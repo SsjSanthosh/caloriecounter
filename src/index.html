@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Calorie Counter</title>
+  </head>
+  <body>
+    <div class="header">
+      <nav class=" navbar navbar-expand-lg  navbar-dark bg-primary  ">
+        <div class="container">
+          <a href="#" class="navbar-brand text-center mx-auto">TruCalorie</a>
+        </div>
+      </nav>
+    </div>
+    <div class="form-section my-5">
+      <div class="container">
+        <div class="card p-3 pb-5">
+          <h2 class="display-5 lead appstate">Add Meal / Food Item</h2>
+          <div class="form-input-div mt-3">
+            <div>
+              <div class="form-group d-inline-block mr-3">
+                <label for="item">Meal</label>
+                <input
+                  type="text"
+                  name="item"
+                  id="item"
+                  placeholder="Add a meal item"
+                  class="form-control"
+                />
+              </div>
+              <div class="form-group d-inline-block">
+                <label for="calories">Calories</label>
+                <input
+                  type="number"
+                  name="calories"
+                  id="calories"
+                  placeholder="Add calories (Kcal)"
+                  class="form-control"
+                />
+              </div>
+              <div class="btn-div">
+                <button
+                  class="btn btn-submit btn-outline-primary btn-md mr-5 px-4 "
+                >
+                  + ADD MEAL
+                </button>
+                <button
+                  class="btn btn-clear btn-outline-danger btn-md  ml-4 px-4 "
+                >
+                  CLEAR ALL MEALS
+                </button>
+                <button
+                  class="btn btn-submit-edit btn-outline-warning btn-lg mr-5 px-5 d-none"
+                >
+                  Done
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="output-div">
+      <div class="container">
+        <div class="calorie-div">
+          <h3 class="display-4 lead">
+            Total Calories: <strong id="calcount">0</strong>
+          </h3>
+        </div>
+        <div class="">
+          <ul class="list-group meal-list ">
+            <!-- <li class="list-group-item">
+              <span class="meal-name"
+                ><strong>Manchurian Noodles - Bowl Company - </strong></span
+              >
+              <span class="meal-calories"><em>1200 Calories</em></span>
+              <div class="float-right icon-div mr-3">
+                <i class="fas fa-edit edit mr-3"></i>
+                <i class="fas fa-trash-alt delete"></i>
+              </div>
+            </li> -->
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
