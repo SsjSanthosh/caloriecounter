@@ -1,6 +1,7 @@
 {
   "name": "calorie-counter",
   "version": "1.0.0",
+  "hompage": "https://ssjsanthosh.github.io/caloriecounter",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -21,6 +22,7 @@
     "webpack-dev-server": "^3.8.2"
   },
   "dependencies": {
-    "@babel/polyfill": "^7.6.0"
+    "@babel/polyfill": "^7.6.0",
+    "gh-pages": "^2.1.1"
   }
 }
